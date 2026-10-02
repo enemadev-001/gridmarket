@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #050505;
+  --color-primary: #FFD21F;
+  --color-white: #FFFFFF;
+  --color-secondary: #A1A1AA;
+  --color-card: #111111;
+  --color-border: #242424;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-white);
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.grid-bg {
+  background-image: linear-gradient(to right, #242424 1px, transparent 1px),
+                    linear-gradient(to bottom, #242424 1px, transparent 1px);
+  background-size: 40px 40px;
+}
